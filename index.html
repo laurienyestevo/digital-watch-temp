@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;600;700&display=swap" rel="stylesheet">
+<body>
+    <div class="weather-app">
+        
+        <div class="container">
+                <div class="relogio">
+                    <div>
+                        <span id="hora">00</span>
+                        <span class="tempo">Horas</span>
+                    </div>
+                    <div>
+                        <span id="minutos">00</span>
+                        <span class="tempo">Minutos</span>
+                    </div>
+                    <div>
+                        <span id="segundos">00</span>
+                        <span class="tempo">Segundos</span>
+                    </div>
+                </div>
+               
+                <div class="temp-city">
+                <h1 class="temp">16&deg;C</h1>
+                <div class="city-time">
+                    <h1 class="name">Patos de Minas</h1>
+                    
+                </div>
+                <div class="weather">
+                    <img src="/weather/day/113.png" alt="icon" width="50" height="50" class="icon" >
+                    <span class="condition">Cloudy</span>
+                </div>
+            </div>
+        </div>
+        <div class="panel">
+            <form  id="locationInput">
+                <input type="text" class="search" placeholder="Search Location">
+                <button type="submit" class="submit"><i class="fas fa-search"></i></button>
+            </form>
+        </div>  
+    </div>
+</body>
+</html>
