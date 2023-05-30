@@ -35,7 +35,7 @@ function updateTime() { //Relógio Digital
 }
 
 function fetchWeatherData(city) {
-  fetch(`https://api.weatherapi.com/v1/current.json?key=682fbcb76bef4becb65232349232705&q=${city}`)
+  fetch(`https://api.weatherapi.com/v1/current.json?key=682fbcb76bef4becb65232349232705&q=${city}&lang=pt`)
     .then(response => response.json())
     .then(data => {
       console.log(data);
