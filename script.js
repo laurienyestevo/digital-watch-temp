@@ -59,10 +59,10 @@ function fetchWeatherData(city) {
         // Dia ou noite chuvosa
         if (isDay === 1) {
           // Dia chuvoso
-          backgroundDirectory = "/imagens/day/rain.jpg";
+          backgroundDirectory = "imagens/day/rain.jpg";
         } else {
           // Noite chuvosa
-          backgroundDirectory = "/imagens/nigth/rain.jpg";
+          backgroundDirectory = "imagens/nigth/rain.jpg";
         }
       } else if (iconId === 113 || iconId === 116 || iconId === 119) {
         // Dia ou noite nublada
@@ -77,10 +77,10 @@ function fetchWeatherData(city) {
         // Dia ou noite com outras condições
         if (isDay === 1) {
           // Dia
-          backgroundDirectory = "/imagens/day/clear.jpg";
+          backgroundDirectory = "imagens/day/clear.jpg";
         } else {
           // Noite
-          backgroundDirectory = "/imagens/nigth/cloudy.jpg";
+          backgroundDirectory = "imagens/nigth/cloudy.jpg";
         }
       }
 
