@@ -11,7 +11,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;600;700&display=swap" rel="stylesheet">
 <body>
-    <div class="weather-app">
+    <div class="weather-app" >
+        <div class="panel">
+            <form aria-label="Pesquisar Local" id="locationInput" >
+                <input aria-label="Barra de pesquisa" type="text" class="search" placeholder="Search Location">
+                <button aria-label="Pesquisar" type="submit" class="submit"><i class="fas fa-search"></i></button>
+            </form>
+        </div>  
         
         <div class="container">
                 <div class="relogio">
@@ -30,23 +36,20 @@
                 </div>
                
                 <div class="temp-city">
-                <h1 class="temp">16&deg;C</h1>
+                <h1 class="temp">0&deg;C</h1>
                 <div class="city-time">
-                    <h1 class="name">Patos de Minas</h1>
+                    <h1 class="name">São Paulo</h1>
                     
                 </div>
                 <div class="weather">
-                    <img src="weather/day/113.png" alt="icon"   class="icon" >
+                    <img src="/icones/night/113.png" alt="icon"   class="icon" >
                     <span class="condition">Cloudy</span>
                 </div>
             </div>
         </div>
-        <div class="panel">
-            <form aria-label="Pesquisar Local" id="locationInput">
-                <input aria-label="Barra de pesquisa" type="text" class="search" placeholder="Search Location">
-                <button aria-label="Pesquisar" type="submit" class="submit"><i class="fas fa-search"></i></button>
-            </form>
-        </div>  
+        
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>

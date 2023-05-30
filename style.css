@@ -8,10 +8,12 @@ body{
 }
 h1, h3{
     font-weight: 400;
+    text-transform: uppercase;
+    
 }
 .weather-app{
     min-height: 100vh;
-    background-image: url('weather/day/day-cloudy.jpg');
+    background-image: url("imagens/day/clear.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -166,6 +168,7 @@ h1, h3{
     width: 100%;
     padding-top: 1em;
     color: #fff;
+    text-transform: uppercase;
 
 }
 .search:focus{
