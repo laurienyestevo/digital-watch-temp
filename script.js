@@ -47,7 +47,8 @@ function fetchWeatherData(city) {
       conditionOutput.innerHTML = data.current.condition.text;
 
       const iconId = data.current.condition.code;
-      icon.src = `icons/day/${iconId}.png`;
+      
+
 
       const isDay = data.current.is_day;
       const conditionCode = data.current.condition.code;
